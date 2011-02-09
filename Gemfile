@@ -5,7 +5,7 @@ source :rubygems
 gem 'rails', '>= 3.0.3'
 
 gem 'warden'
-gem 'devise', '= 1.1.3'
+gem 'devise'
 
 gem 'mongoid', '~> 2.0.0.rc.7'
 gem 'bson_ext', '1.2.0'
@@ -21,7 +21,7 @@ gem 'rmagick', '2.12.2'
 gem 'locomotive_carrierwave', '0.5.0.1.beta2', :require => 'carrierwave'
 
 gem 'custom_fields', '1.0.0.beta.4'
-gem 'fog', '0.3.7'
+gem 'fog'
 gem 'mimetype-fu'
 gem 'actionmailer-with-request'
 gem 'heroku'
