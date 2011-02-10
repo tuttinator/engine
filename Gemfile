@@ -8,7 +8,7 @@ gem 'warden'
 gem 'devise'
 
 gem 'mongoid', '~> 2.0.0.rc.7'
-gem 'bson_ext', '1.2.0'
+gem 'bson_ext', '1.2.1'
 gem 'locomotive_mongoid_acts_as_tree', '0.1.5.2', :require => 'mongoid_acts_as_tree'
 gem 'will_paginate'
 
@@ -40,8 +40,8 @@ group :development do
 end
 
 group :test, :development do
-  gem "ruby-debug", :platforms => :mri_18
-  gem "ruby-debug19", :platforms => :mri_19
+  #gem "ruby-debug", :platforms => :mri_18
+  #gem "ruby-debug19", :platforms => :mri_19
 end
 
 group :test do
