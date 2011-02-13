@@ -9,7 +9,7 @@ gem 'devise'
 
 gem 'mongoid', '~> 2.0.0.rc.7'
 gem 'bson_ext', '1.2.1'
-gem 'locomotive_mongoid_acts_as_tree', '0.1.5.2', :require => 'mongoid_acts_as_tree'
+gem 'locomotive_mongoid_acts_as_tree', '0.1.5.5', :require => 'mongoid_acts_as_tree'
 gem 'will_paginate'
 
 gem 'haml', '3.0.25'
