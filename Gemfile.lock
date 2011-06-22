@@ -120,7 +120,7 @@ GEM
     gherkin (2.4.1)
       json (>= 1.4.6)
     growl-glue (1.0.7)
-    haml (3.0.25)
+    haml (3.1.2)
     has_scope (0.5.0)
     heroku (1.18.2)
       json (~> 1.5.1)
@@ -298,7 +298,7 @@ DEPENDENCIES
   fog (= 0.3.7)
   formtastic (~> 1.2.3)
   growl-glue
-  haml (= 3.0.25)
+  haml
   heroku (= 1.18.2)
   httparty (>= 0.6.1)
   inherited_resources (~> 1.1.2)

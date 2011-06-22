@@ -30,7 +30,7 @@ gem 'bson_ext'#, '~> 1.2.1'
 gem 'locomotive_mongoid_acts_as_tree', '0.1.5.5', :require => 'mongoid_acts_as_tree'
 gem 'will_paginate'
 
-gem 'haml', '3.0.25'
+gem 'haml'#, '3.0.25'
 gem 'locomotive_liquid', '2.2.2', :require => 'liquid'
 gem 'formtastic', '~> 1.2.3'
 gem 'inherited_resources', '~> 1.1.2'
