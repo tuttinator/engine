@@ -2,13 +2,31 @@ source :rubygems
 
 # add in all the runtime dependencies
 
-gem 'rails', '>= 3.0.5'
+########  UPDATE to rails 3.1  #########
+gem 'rails', '3.1.0.rc4'
+gem 'therubyracer-heroku'
+
+
+
+# Rails 3.1 - Asset Pipeline
+gem 'json'
+gem 'sass'
+gem 'coffee-script'
+gem 'uglifier'
+# Rails 3.1 - JavaScript
+gem 'jquery-rails'
+
+# Rails 3.1 - Heroku
+group :production do
+  gem 'pg'
+end
+########################################
 
 gem 'warden'
-gem 'devise', '= 1.1.3'
+gem 'devise'#, '= 1.1.3'
 
-gem 'mongoid', '~> 2.0.0.rc.7'
-gem 'bson_ext', '~> 1.2.1'
+gem 'mongoid'#, '~> 2.0.0.rc.7'
+gem 'bson_ext'#, '~> 1.2.1'
 gem 'locomotive_mongoid_acts_as_tree', '0.1.5.5', :require => 'mongoid_acts_as_tree'
 gem 'will_paginate'
 
@@ -48,14 +66,14 @@ group :test do
   gem 'autotest'
   gem 'ZenTest'
   gem 'growl-glue'
-  gem 'rspec-rails', '2.3.1'
+  gem 'rspec-rails'#, '2.3.1'
   gem 'factory_girl_rails'
   gem 'pickle'
-  gem 'xpath',            :git => 'https://github.com/wunderbread/xpath.git'
+  gem 'xpath'#, :git => 'https://github.com/wunderbread/xpath.git'
   gem 'capybara'
 
   gem 'database_cleaner'
-  gem 'cucumber', '0.8.5'
+  gem 'cucumber'#, '0.8.5'
   gem 'cucumber-rails'
   gem 'spork'
   gem 'launchy'

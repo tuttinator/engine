@@ -1,4 +1,8 @@
 Locomotive::Application.configure do
+
+  # rails 3.1
+  #config.action_view.debug_rjs             = true
+
   # Settings specified here will take precedence over those in config/environment.rb
 
   # In the development environment your application's code is reloaded on

@@ -1,4 +1,9 @@
 Locomotive::Application.configure do
+
+  # rails 3.1 - Compress both stylesheets and JavaScripts
+  config.assets.js_compressor  = :uglifier
+  config.assets.css_compressor = :scss
+
   # Settings specified here will take precedence over those in config/environment.rb
 
   # The production environment is meant for finished, "live" apps.

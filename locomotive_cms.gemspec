@@ -17,11 +17,13 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = ">= 1.3.6"
   s.rubyforge_project         = "nowarning"
 
-  s.add_dependency "rails", ">= 3.0.5"
+  s.add_dependency "builder", "~> 3.0.0"
+
+  s.add_dependency "rails", ">= 3.1.rc4"
   s.add_dependency "warden"
-  s.add_dependency "devise", "1.1.3"
-  s.add_dependency "mongoid", "~> 2.0.0.rc.7"
-  s.add_dependency "bson_ext", "~> 1.2.0"
+  s.add_dependency "devise"#, "1.1.3"
+  s.add_dependency "mongoid"#, "~> 2.0.0.rc.7"
+  s.add_dependency "bson_ext"#, "~> 1.2.0"
   s.add_dependency "locomotive_mongoid_acts_as_tree", "0.1.5.5"
   s.add_dependency "will_paginate"
 
