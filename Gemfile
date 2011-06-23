@@ -4,6 +4,7 @@ source :rubygems
 
 ########  UPDATE to rails 3.1  #########
 gem 'rails', '3.1.0.rc4'
+#gem 'rails', :git => 'https://github.com/rails/rails.git'
 gem 'therubyracer-heroku'
 
 
